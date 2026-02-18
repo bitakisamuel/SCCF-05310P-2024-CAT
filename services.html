@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+        </ul>
+    </nav>
+
+    <section class="section">
+        <h1>Services I Offer</h1>
+
+        <!-- Services List -->
+        <ul class="services-list">
+            <li class="service-card">
+                <img src="Pasted image (3).png" alt="Web Development">
+                <h3>Web Development</h3>
+                <p>Creating responsive and dynamic websites.</p>
+            </li>
+
+            <li class="service-card">
+                <img src="Pasted image (4).png" alt="Web Design">
+                <h3>Web Design</h3>
+                <p>Modern and professional website designs.</p>
+            </li>
+
+            <li class="service-card">
+                <img src="Pasted image (5).png" alt="IT Support">
+                <h3>IT Support</h3>
+                <p>Basic technical and computer support.</p>
+            </li>
+        </ul>
+
+        <!-- Service Form -->
+        <h2>Request a Service</h2>
+        <form id="serviceForm">
+            <label>Name:</label>
+            <input type="text" required>
+
+            <label>Email:</label>
+            <input type="email" required>
+
+            <label>Select Service:</label>
+            <select required>
+                <option>Web Development</option>
+                <option>Web Design</option>
+                <option>IT Support</option>
+            </select>
+
+            <label>Message:</label>
+            <textarea required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <p id="serviceResponse"></p>
+    </section>
+
+    <script src="s.js"></script>
+</body>
+</html>
